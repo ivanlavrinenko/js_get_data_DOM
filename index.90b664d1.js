@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var t=function(t){return t.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",")},e=Array.from(document.querySelectorAll("span.population")).map(function(t){return parseInt(t.textContent.replace(/,/g,""),10)}),n=e.reduce(function(t,e){return t+e},0),o=n/e.length,r=t(n),u=t(Math.round(o)),a=document.querySelector("span.total-population"),c=document.querySelector("span.average-population");a.textContent=r,c.textContent=u});
+//# sourceMappingURL=index.90b664d1.js.map
